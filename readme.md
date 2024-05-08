@@ -249,8 +249,8 @@ upstream = false
   * 示例：` /domain.lan/10 mx.domain.lan ` ：将 ` domain.lan ` 解析为 ` mx.domain.lan ` ，优先级为 ` 10 ` 。
 
 ### **（3）log 配置节**
-- **client**：为 true 时记录客户端请求日志；为 false 时不记录日志；在 log 目录下名为 ` 日期 + c.log ` 文件。
-- **upstream**：为 true 时记录上游服务请求日志；为 false 时不记录日志；在 log 目录下名为 ` 日期 + u.log ` 文件。
+- **client**：为 true 时记录客户端请求日志；为 false 时不记录日志；在 log 目录下名为 ` 日期 + C.log ` 文件。
+- **upstream**：为 true 时记录上游服务请求日志；为 false 时不记录日志；在 log 目录下名为 ` 日期 + U.log ` 文件。
 
 ## **3. 验证 DNS 响应**
 
