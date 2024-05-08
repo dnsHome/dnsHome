@@ -22,7 +22,7 @@ B4 -.-> D(上游)
 - 进入运行目录 ` cd /dnsHome ` 。
 - 下载设备匹配的运行版本，以 x64 ` dnsHome_linux_amd64.tar.bz2 ` 为例， ` wget -O dnsHome.tar.bz2 -q https://github.com/dnsHome/dnsHome/releases/download/v0.0.1/dnsHome_linux_amd64.tar.bz2 ` 。
 - 解压 ` tar -xjvf dnsHome.tar.bz2 ` 。
-- 赋予运行权限 ` chmod +x ./dnsHome ` 。
+- 为应用程序赋予运行权限 ` chmod +x ./dnsHome ` 。
 - 修改配置文件 ` vi app.toml ` ，详见 ` 2. 配置文件说明 ` 。
 - （可选）根据需要直接运行 ` ./dnsHome ` 。
 - 服务方式运行：
@@ -55,7 +55,7 @@ B4 -.-> D(上游)
   * ` service dnsHome status ` 查看服务状态
 
 > [!TIP]
-> 请释放 dnsmasq 占用的 53 端口，将 server port 改为 5353 或其他端口。
+> 请释放 dnsmasq 占用的 53 端口，将其 server port 改为 5353 或其他端口。
 
 > [!TIP]
 > 如果日志中的时间为 UTC 时间，非北京时间，请安装时区依赖。
@@ -71,7 +71,7 @@ B4 -.-> D(上游)
 - 进入运行目录 ` cd /dnsHome ` 。
 - 下载设备匹配的运行版本，以 x64 ` dnsHome_linux_amd64.tar.bz2 ` 为例， ` wget -O dnsHome.tar.bz2 -q https://github.com/dnsHome/dnsHome/releases/download/v0.0.1/dnsHome_linux_amd64.tar.bz2 ` 。
 - 解压 ` tar -xjvf dnsHome.tar.bz2 ` 。
-- 赋予运行权限 ` chmod +x ./dnsHome ` 。
+- 为应用程序赋予运行权限 ` chmod +x ./dnsHome ` 。
 - 修改配置文件 ` vi app.toml ` ，详见 ` 2. 配置文件说明 ` 。
 - （可选）根据需要直接运行 ` ./dnsHome ` 。
 - 服务方式运行：
@@ -85,7 +85,7 @@ B4 -.-> D(上游)
       pidfile="/run/${RC_SVCNAME}.pid"
       ```
   * 按 esc 键，在 ` : ` 提示符后面输入 ` wq ` ，按回车键保存退出。
-  * 赋予运行权限 ` chmod +x ./dnsHome ` 。
+  * 为服务定义赋予运行权限 ` chmod +x ./dnsHome ` 。
   * ` rc-update add dnsHome default ` 添加服务自动运行
   * ` rc-update del dnsHome ` 删除服务自动运行
   * ` service dnsHome start ` 开始运行服务
