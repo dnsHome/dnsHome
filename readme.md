@@ -1,6 +1,6 @@
 <h2 align="center">屏蔽全网广告和跟踪的免费、高速、安全 DNS 服务器</h2>
 <br/>
-<p align="center"><a href="https://github.com/dnsHome/dnsHome/releases"><img src="https://img.shields.io/github/v/release/dnsHome/dnsHome.svg"/></a>
+<p align="center"><a href="https://github.com/dnsHome/dnsHome/releases"><img src="https://img.shields.io/github/v/release/dnsHome/dnsHome"/></a>
 </p>
 
 ``` mermaid
