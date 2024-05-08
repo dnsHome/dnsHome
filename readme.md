@@ -20,8 +20,8 @@ B4 -.-> D(上游)
 ### **（1）OpenWrt**
 - 创建运行目录 ` mkdir -p /dnsHome ` ，以 ` /dnsHome ` 为例。
 - 进入运行目录 ` cd /dnsHome ` 。
-- 下载设备匹配的运行版本，以 x64 ` dnsHome_linux_amd64.tar.bz2 ` 为例， ` wget -O dnsHome.tar.bz2 -q https://github.com/dnsHome/dnsHome/releases/download/v0.0.1/dnsHome_linux_amd64.tar.bz2 ` 。
-- 解压 ` tar -xjvf dnsHome.tar.bz2 ` 。
+- 下载设备匹配的运行版本，以 x64 ` dnsHome_linux_amd64.tar.gz ` 为例， ` wget -O dnsHome.tar.gz -q https://github.com/dnsHome/dnsHome/releases/download/v0.0.1/dnsHome_linux_amd64.tar.gz ` 。
+- 解压 ` tar -xzf dnsHome.tar.gz ` 。
 - 为应用程序赋予运行权限 ` chmod +x ./dnsHome ` 。
 - 修改配置文件 ` vi app.toml ` ，详见 ` 2. 配置文件说明 ` 。
 - （可选）根据需要直接运行 ` ./dnsHome ` 。
@@ -69,8 +69,8 @@ B4 -.-> D(上游)
 ### **（2）Alpine Linux**
 - 创建运行目录 ` mkdir -p /dnsHome ` ，以 ` /dnsHome ` 为例。
 - 进入运行目录 ` cd /dnsHome ` 。
-- 下载设备匹配的运行版本，以 x64 ` dnsHome_linux_amd64.tar.bz2 ` 为例， ` wget -O dnsHome.tar.bz2 -q https://github.com/dnsHome/dnsHome/releases/download/v0.0.1/dnsHome_linux_amd64.tar.bz2 ` 。
-- 解压 ` tar -xjvf dnsHome.tar.bz2 ` 。
+- 下载设备匹配的运行版本，以 x64 ` dnsHome_linux_amd64.tar.gz ` 为例， ` wget -O dnsHome.tar.gz -q https://github.com/dnsHome/dnsHome/releases/download/v0.0.1/dnsHome_linux_amd64.tar.gz ` 。
+- 解压 ` tar -xzf dnsHome.tar.gz ` 。
 - 为应用程序赋予运行权限 ` chmod +x ./dnsHome ` 。
 - 修改配置文件 ` vi app.toml ` ，详见 ` 2. 配置文件说明 ` 。
 - （可选）根据需要直接运行 ` ./dnsHome ` 。
@@ -103,8 +103,8 @@ B4 -.-> D(上游)
 ### **（3）Debian Linux**
 - 创建运行目录 ` mkdir -p /dnsHome ` ，以 ` /dnsHome ` 为例。
 - 进入运行目录 ` cd /dnsHome ` 。
-- 下载设备匹配的运行版本，以 x64 ` dnsHome_linux_amd64.tar.bz2 ` 为例， ` wget -O dnsHome.tar.bz2 -q https://github.com/dnsHome/dnsHome/releases/download/v0.0.1/dnsHome_linux_amd64.tar.bz2 ` 。
-- 解压 ` tar -xjvf dnsHome.tar.bz2 ` 。
+- 下载设备匹配的运行版本，以 x64 ` dnsHome_linux_amd64.tar.gz ` 为例， ` wget -O dnsHome.tar.gz -q https://github.com/dnsHome/dnsHome/releases/download/v0.0.1/dnsHome_linux_amd64.tar.gz ` 。
+- 解压 ` tar -xzf dnsHome.tar.gz ` 。
 - 赋予运行权限 ` chmod +x ./dnsHome ` 。
 - 修改配置文件 ` vi app.toml ` ，详见 ` 2. 配置文件说明 ` 。
 - （可选）根据需要直接运行 ` ./dnsHome ` 。
