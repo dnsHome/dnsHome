@@ -256,3 +256,11 @@ upstream = false
 
 - 在 windows 命令行中可输入 ` nslookup -q=A github.com A.B.C.D ` 。
 - 在 linux 命令行中可输入 ` dig A github.com @A.B.C.D ` 。
+
+## **4. 赞助**
+
+### **（1）支付宝**
+![通过支付宝赞助](img/alipay.jpg)
+
+### **（2）微信**
+![通过微信赞助](img/wepay.jpg)
