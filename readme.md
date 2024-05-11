@@ -56,8 +56,9 @@ B4 -.-> D(上游)
 
 > <details>
 > <summary>【提示】请确保 53 端口可用</summary>
-> [!TIP]
+
 > 请释放 dnsmasq 占用的 53 端口，将其 server port 改为 5353 或其他端口。
+
 > </details>
 
 > [!TIP]
