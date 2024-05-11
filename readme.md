@@ -259,4 +259,4 @@ upstream = false
 
 ## **4. 赞助**
 <div align="center"><img src="img/alipay.jpg" width="200px" height="200px" /><img src="img/sp.svg" width="200px" height="1px" /><img src="img/wepay.jpg" width="200px" height="200px" /></div>
-<div align="center">支付宝<img src="img/sp.svg" width="400px" height="1px" />微信</div>
+<div align="center">支付宝<img src="img/sp.svg" width="360px" height="1px" />微信</div>
