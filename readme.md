@@ -96,13 +96,16 @@ B4 -.-> D(上游)
   * ` service dnsHome stop ` 停止运行服务
   * ` service dnsHome status ` 查看服务状态
 
-> [!TIP]
-> 如果日志中的时间为 UTC 时间，非北京时间，请安装时区依赖。
+> <details>
+> <summary>【提示】请按需修改系统时区</summary>
+> 如果日志中的时间为 UTC 时间（非北京时间），请安装时区依赖。
+> 
 > - apk update
 > - apk add tzdata
 > - cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 > - echo "Asia/Shanghai" > /etc/timezone
 > - apk del tzdata
+> </details>
 
 ### **（3）Debian Linux**
 - 创建运行目录 ` mkdir -p /dnsHome ` ，以 ` /dnsHome ` 为例。
@@ -139,17 +142,23 @@ B4 -.-> D(上游)
   * ` systemctl stop dnsHome ` 停止运行服务
   * ` systemctl status dnsHome ` 查看服务状态
 
-> [!TIP]
+> <details>
+> <summary>【提示】请确保 53 端口可用</summary>
 > 请释放 systemd-resolved 占用的 53 端口。
+>
 > - vi /etc/systemd/resolved.conf
 > - DNSStubListener=no
 > - 按 esc 键，在 : 提示符后面输入 wq ，按回车键保存退出
 > - systemctl reload-or-restart systemd-resolved
+> </details>
 
-> [!TIP]
-> 如果日志中的时间为 UTC 时间，非北京时间，请设置时区。
+> <details>
+> <summary>【提示】请按需修改系统时区</summary>
+> 如果日志中的时间为 UTC 时间（非北京时间），请正确设置时区。
+> 
 > - dpkg-reconfigure tzdata
 > - 选择 Asia/Shanghai
+> </details>
 
 ### **（4）Windows**
 - 创建运行目录，以 ` C:\dnsHome ` 为例。
