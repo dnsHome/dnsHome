@@ -258,5 +258,5 @@ upstream = false
 - 在 linux 命令行中可输入 ` dig A github.com @A.B.C.D ` 。
 
 ## **4. 赞助**
-<div align="center"><img src="img/alipay.jpg" width="200px" height="200px" /><img src="data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><foreignObject width="100" height="1"></foreignObject></svg>" /><img src="img/wepay.jpg" width="200px" height="200px" /></div>
-<div align="center">支付宝<img src="data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><foreignObject width="300" height="1"></foreignObject></svg>" />微信</div>
+<div align="center"><img src="img/alipay.jpg" width="200px" height="200px" /><img src='data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><foreignObject width="100" height="1"></foreignObject></svg>' /><img src="img/wepay.jpg" width="200px" height="200px" /></div>
+<div align="center">支付宝<img src='data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><foreignObject width="300" height="1"></foreignObject></svg>' />微信</div>
