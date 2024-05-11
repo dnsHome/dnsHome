@@ -258,9 +258,4 @@ upstream = false
 - 在 linux 命令行中可输入 ` dig A github.com @A.B.C.D ` 。
 
 ## **4. 赞助**
-<p align="center">
-<img src="img/alipay.jpg" alt="用支付宝扫码赞助" width="200px" height="200px" /> <pre>                              </pre> <img src="img/wepay.jpg" alt="用微信扫码赞助" width="200px" height="200px" />
-</p>
-<p align="center">
-支付宝 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 微信
-</p>
+<img src="img/sponsor.svg" />
