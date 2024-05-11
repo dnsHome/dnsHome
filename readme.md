@@ -260,7 +260,7 @@ upstream = false
 ## **4. 赞助**
 
 ### **（1）支付宝**
-![通过支付宝赞助](img/alipay.jpg){:height="200px" width="200px"}
+<img src="img/alipay.jpg" alt="通过支付宝赞助" width="200px" height="200px">
 
 ### **（2）微信**
-![通过微信赞助](img/wepay.jpg){:height="200px" width="200px"}
+<img src="img/wepay.jpg" alt="通过微信赞助" width="200px" height="200px">
