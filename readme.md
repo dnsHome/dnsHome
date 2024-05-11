@@ -259,7 +259,7 @@ upstream = false
 
 ## **4. 赞助**
 <p align="center">
-<img src="img/alipay.jpg" alt="用支付宝扫码赞助" width="200px" height="200px" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="img/wepay.jpg" alt="用微信扫码赞助" width="200px" height="200px" />
+<img src="img/alipay.jpg" alt="用支付宝扫码赞助" width="200px" height="200px" /> <pre>                              </pre> <img src="img/wepay.jpg" alt="用微信扫码赞助" width="200px" height="200px" />
 </p>
 <p align="center">
 支付宝 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 微信
