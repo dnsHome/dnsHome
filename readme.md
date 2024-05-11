@@ -59,9 +59,9 @@ B4 -.-> D(上游)
 > 请释放 dnsmasq 占用的 53 端口，将其 server port 改为 5353 或其他端口。
 > </details>
 
-> <details>
-> <summary>【提示】请按需修改系统时区</summary>
-> 如果日志中的时间为 UTC 时间，非北京时间，请安装时区依赖。
+<details>
+<summary>【提示】请按需修改系统时区</summary>
+如果日志中的时间为 UTC 时间（非北京时间），请安装时区依赖。
 ```
 - opkg update
 - opkg install zoneinfo-asia
@@ -69,7 +69,7 @@ B4 -.-> D(上游)
 - opkg remove zoneinfo-asia
 - 确认 System Timezone 已设为 Asia/Shanghai
 ```
-> </details>
+</details>
 
 ### **（2）Alpine Linux**
 - 创建运行目录 ` mkdir -p /dnsHome ` ，以 ` /dnsHome ` 为例。
