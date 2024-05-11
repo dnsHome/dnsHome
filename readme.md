@@ -54,8 +54,13 @@ B4 -.-> D(上游)
   * ` service dnsHome stop ` 停止运行服务
   * ` service dnsHome status ` 查看服务状态
 
+<details>
+<summary>> [!TIP]
+请释放 dnsmasq 占用的 53 端口
+</summary>
 > [!TIP]
 > 请释放 dnsmasq 占用的 53 端口，将其 server port 改为 5353 或其他端口。
+</details>
 
 > [!TIP]
 > 如果日志中的时间为 UTC 时间，非北京时间，请安装时区依赖。
