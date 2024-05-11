@@ -54,13 +54,11 @@ B4 -.-> D(上游)
   * ` service dnsHome stop ` 停止运行服务
   * ` service dnsHome status ` 查看服务状态
 
-<details>
-<summary>> [!TIP]
-请释放 dnsmasq 占用的 53 端口
-</summary>
+> <details>
+> <summary>【提示】请确保 53 端口可用</summary>
 > [!TIP]
 > 请释放 dnsmasq 占用的 53 端口，将其 server port 改为 5353 或其他端口。
-</details>
+> </details>
 
 > [!TIP]
 > 如果日志中的时间为 UTC 时间，非北京时间，请安装时区依赖。
@@ -264,4 +262,4 @@ upstream = false
 
 ## **4. 赞助**
 <div align="center"><img src="img/alipay.jpg" width="200px" height="200px" /><img src="img/sp.svg" width="200px" height="1px" /><img src="img/wepay.jpg" width="200px" height="200px" /></div>
-<div align="center">支付宝<img src="img/sp.svg" width="366px" height="1px" />微信 &nbsp; </div>
+<div align="center">支付宝<img src="img/sp.svg" width="366px" height="1px" />微信 &nbsp;</div>
