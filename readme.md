@@ -1,5 +1,5 @@
 <h2 align="center">屏蔽全网广告和跟踪的免费、高速、安全 DNS 服务器</h2>
-<h3 align="center">享受 DoH ( DNS-over-HTTPS ) 带来的安全体验</h3>
+<h3 align="center">享受 DoH ( DNS-over-HTTPS ) 带来的防窃听、防冒充、防篡改安全体验</h3>
 <br/>
 <p align="center"><a href="https://github.com/dnsHome/dnsHome/releases"><img src="https://img.shields.io/github/v/release/dnsHome/dnsHome"/></a>
 </p>
