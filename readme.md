@@ -48,6 +48,7 @@ B4 -.-> D(上游)
         procd_add_interface_trigger "interface.*" lan /etc/init.d/dnsHome restart
       }
       ```
+  * 为服务定义赋予运行权限 ` chmod +x ./dnsHome ` 。
   * 按 esc 键，在 ` : ` 提示符后面输入 ` wq ` ，按回车键保存退出。
   * ` service dnsHome enable ` 启用服务自动运行
   * ` service dnsHome disable ` 禁用服务自动运行
